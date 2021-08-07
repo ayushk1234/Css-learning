@@ -4,63 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Component file for CSS</title>
+    <title>Home</title>
     <link href="styles.css" rel="stylesheet"/>
 </head>
 
-
 <body>
-    <h1 id="lib-header">Ayush's component library</h1>
-    <p class="para">I am creating a library for all my projects </p>
-    <hr>
-    <h2>@typography</h2>
-    <p>This is in <strong>bold</strong></p>
-    <hr>
-
-    <h2>@container</h2>
-    <h3>fluid container</h3>
-    <div class="container">This is a fluid container and it will go till the end of page </div>
-
-    <h3>center container </h3>
-    <div class="container container-center">This is a centered container and it will go till the specified width</div>
-    <hr>
-
-    <h2>@Links</h2>
-    <a class="link primary-link" href="https://google.com">Ayush</a>
-    <a class="link secondary-link" href="/">Primary Link</a>
-    <a class="link" href="/">Secondary Link</a>
-    <hr>
-
-    <h2>@Lists</h2>
-    
-    <h3>unodered list</h3>
-    <p>this list will not have bullet</p>
-    <ul class="list-non-bullet">
-        
-        <li>Item one</li>
-        <li>Item two</li>
-        <li>Item three</li> 
-    </ul>
-
-    <h3>inline unordered list</h3>
-    <ul class="list-non-bullet
-     ">
-        
-        <li class="list-item-inline">Item one</li>
-        <li class="list-item-inline">Item two</li>
-        <li class="list-item-inline">Item three</li> 
-    </ul>
-
-    <h3>ordered list</h3>
-    <ol reversed>
-        <li> Item one</li>
-        <li> Item two</li>
-        <li> Item three</li>
-    </ol>
-
-    <hr>
-    <h2>@nav</h2>
-
     <nav class="navigation container">
         <div class="nav-brand"> I am </div>
         <ul class="list-non-bullet nav-pills">
@@ -68,54 +16,60 @@
                 <a class="link link-active" href ="/">home</a>
             </li  >
             <li class="list-item-inline" >
-                <a class="link" href="/">projects</a>
+                <a class="link" href="/projects.html">projects</a>
             </li  >
             <li class="list-item-inline" >
-                <a class="link"  href="/">about</a>
+                <a class="link"  href="/blogs.html">blogs</a>
             </li>
         </ul>
     </nav>
 
-    <hr>
 
-    <h2>@header</h2>
     <header class="hero">
         <img class="hero-img" src="images/heroimage.svg"/>
         <h1 class="hero-heading">Projects as <span class="heading-inverted">web developer</span></h1>
     </header>
 
-    <hr>
-    <h2>@section</h2>
-    <section class="section">
-        <h1>white section</h1>
-        <p>this will go end to end with little margin at both sides </p>
-        <p>this will have white background</p>
 
-
-    </section>
     <section class="section ow">
         <div class="container container-center">
-            <h1>off white section</h1>
-            <p>This will have grey background</p>
+            <h1>technologies</h1>
+            <p>When Jadeja and Rahul were batting together I saw the stats on the side, and we can't differentiate much between the two, except the no of matches, I know where Jadeja bats though, the question is, Has he been under utilized for his skills in batting in tests, or has he under performed, which I don't think!, comments, please!" --- I think he took a while finding his feet as a Test</p>
         </div>
       
     </section>
-     
-    <hr>
-    <h2>@footer</h2>
-    <footer>
-        <div>some small heading </div>
-        <ul>
-            <li>socialone</li>
-            <li>socialTwo</li>
-            <li>soocialthree</li>
-        </ul>
-    </footer>
 
 
+<section class="section ">
+    <div class="container container-center">
+            <h1>projects</h1>
+            <p>When Jadeja and Rahul were batting together I saw the stats on the side, and we can't differentiate much between the two, except the no of matches, I know where Jadeja bats though, the question is, Has he been under utilized for his skills in batting in tests, or has he under performed, which I don't think!, comments, please!" --- I think he took a while finding his feet as a Test</p>
+            <a class="link primary-link" href="/projects.html"> See projects</a>
+    </div>
+    
+    
 
+
+</section>
+
+<section class="section ow">
+    <div class="container container-center">
+        <h1>blogs</h1>
+        <p>When Jadeja and Rahul were batting together I saw the stats on the side, and we can't differentiate much between the two, except the no of matches, I know where Jadeja bats though, the question is, Has he been under utilized for his skills in batting in tests, or has he under performed, which I don't think!, comments, please!" --- I think he took a while finding his feet as a Test</p>
+        <a class="link secondary-link" href="/blogs.html"> Read blogs</a>
+    </div>
+  
+</section>
+
+<footer class="footer">
+    <div class="footer-header">Connect with me</div>
+    <ul class="social-links list-non-bullet">
+        <li class="list-item-inline"><a class="link" href="https://www.linkedin.com/in/ayush-khandelwal-481b1557/">Linkedin</a></li>
+        <li class="list-item-inline"><a class="link" href="https://github.com/ayushk1234">GitHub</a></li>
+        <li class="list-item-inline"><a class="link" href="https://twitter.com/ayushkhandelwa4">Twitter</a></li>
+    </ul>
+</footer>
 
 
 </body>
-
 </html>
